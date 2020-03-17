@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 3rem;
+    position: relative;
+    background: #88ff45;
+}
+
+.content{
+    max-width: 75rem;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, .5);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.btn{
+    font-size: 1.5rem;
+    color: white;
+    background: #046f23;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 0 .5rem;
+    height: 2.2rem;
+    line-height: 2.2rem;
+    transition: .5s;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background: white;
+    color: #046f23;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 3rem;
+    background: #c9fcab;
+}
+
+.textareaWrap{
+    flex: 0 0 80%;
+}
+
+.textareaWrap textarea{
+    width: 90%;
+    font-size: 1.5rem;
+    height: 2.2rem;
+    line-height: 2.2rem;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+}
+
+.buttonAddWrap{
+    flex: 0 0 20%;
+}
+
+.textareaWrap,
+.buttonAddWrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.searchWrap{
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+.searchWrap input{
+    font-size: 1.25rem;
+    height: 1.75rem;
+    line-height: 1.75rem;
+    padding: 0 .5rem;
+}
+
+.buttonsWrap{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.tasksHeader{
+    background: #32bb4e;
+}
+
+.tasksHeader .btn{
+    margin: 0 3%;
+}

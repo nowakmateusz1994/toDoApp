@@ -1,15 +1,50 @@
 <!DOCTYPE html>
 <html lang="pl_PL">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To do App</title>
 </head>
-<body>
-    
 
-    
+<body>
+    <div class="content">
+        <div class="header">
+            <div class="textareaWrap">
+                <textarea placeholder="wprowadź treść zadania"></textarea>
+            </div>
+            <div class="buttonAddWrap">
+                <div class="btn add">
+                    Dodaj
+                </div>
+            </div>
+        </div>
+
+        <div class="tasks">
+
+            <div class="tasksHeader">
+                <div class="searchWrap">
+                    <input type="text" class="search" placeholder="Szukaj">
+                </div>
+                
+                <div class="buttonsWrap">
+                    <div class="btn all">Wszystkie</div>
+                    <div class="btn notDone">Nie zrobione</div>
+                    <div class="btn done">Zrobione</div>
+                </div>
+            </div>
+
+            <div class="tasksItems">
+
+            </div>
+
+        </div>
+
+    </div>
+
+
     <script src="script.js"></script>
 </body>
+
 </html>
